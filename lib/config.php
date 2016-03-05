@@ -30,5 +30,5 @@ $url_instagram = "#";
 $url_facebook = "#";
 
 //设置版权信息
-$copyright = "";
+$copyright = "Jane Doe";
 
