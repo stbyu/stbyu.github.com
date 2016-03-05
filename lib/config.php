@@ -19,3 +19,12 @@ $main_title = "JANE DOE";
 //设置二级标题
 $sec_title = "SENIOR PSYCHONAUTICS ENGINEER";
 
+//设置Twitter链接
+$url_twitter = "#";
+
+//设置Instagram链接
+$url_instagram = "#";
+
+//设置Facebook链接
+$url_facebook = "#";
+

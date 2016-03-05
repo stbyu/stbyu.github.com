@@ -69,9 +69,9 @@ include_once 'lib/config.php';
         -->
         <footer>
             <ul class="icons">
-                <li><a href="#" class="fa-twitter">Twitter</a></li>
-                <li><a href="#" class="fa-instagram">Instagram</a></li>
-                <li><a href="#" class="fa-facebook">Facebook</a></li>
+                <li><a href="<?php echo $url_twitter;?>" class="fa-twitter">Twitter</a></li>
+                <li><a href="<?php echo $url_instagram; ?>" class="fa-instagram">Instagram</a></li>
+                <li><a href="<?php echo $url_facebook; ?>" class="fa-facebook">Facebook</a></li>
             </ul>
         </footer>
     </section>
