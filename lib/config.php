@@ -19,6 +19,7 @@ $main_title = "JANE DOE";
 //设置二级标题
 $sec_title = "SENIOR PSYCHONAUTICS ENGINEER";
 
+//设置连接地址
 //设置Twitter链接
 $url_twitter = "#";
 
