@@ -29,3 +29,6 @@ $url_instagram = "#";
 //设置Facebook链接
 $url_facebook = "#";
 
+//设置版权信息
+$copyright = "";
+

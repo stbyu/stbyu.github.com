@@ -26,7 +26,7 @@ include_once 'lib/config.php';
     <!-- Main -->
     <section id="main">
         <header>
-            <span class="avatar"><img src="images/<?php echo $avatar_filename; ?>" alt="" /></span>
+            <span class="avatar"><img src="images/<?php echo $avatar_filename; ?>" height="130" width="130" alt="" /></span>
             <h1><?php echo $main_title; ?></h1>
             <p><?php echo $sec_title; ?></p>
         </header>
