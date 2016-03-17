@@ -107,14 +107,3 @@ include_once 'lib/config.php';
 </body>
 
 </body>
-
-</body>
-
-y>
-
-</body>
-
-</body>
-
-</body>
-
