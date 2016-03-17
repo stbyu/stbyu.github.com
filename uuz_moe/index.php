@@ -103,7 +103,3 @@ include_once 'lib/config.php';
 </script>
 
 </body>
-
-</body>
-
-</body>
