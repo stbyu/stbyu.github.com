@@ -80,7 +80,7 @@ include_once 'lib/config.php';
     <footer id="footer">
         &copy; <?php echo $copyright; ?> </br>
         <ul class="copyright">
-            <li>Design: <a href="https://github.com/hanzexu990323/uuz-h5theme">uuz-h5theme
+            <li>Design: <a href="https://github.com/hanzexu990323/uuz-h5theme">UUZ-H5THEME
             <li>Powered: <a href="http://html5up.net">HTML5 UP</a></li>
         </ul>
     </footer>
