@@ -7,6 +7,5 @@ Demonstration:https://h5test.uuz.moe
 
 `git clone https://github.com/hanzexu990323/uuz-h5theme.git`
 
-Rename lib/config-sample.php to config.php,and edit the infomation.
-
-Enjoy it.
+*Rename lib/config-sample.php to config.php,and edit the infomation.
+*Enjoy it.
