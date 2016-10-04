@@ -78,9 +78,10 @@ include_once 'lib/config.php';
 
     <!-- Footer -->
     <footer id="footer">
+        &copy; <?php echo $copyright; ?> </br>
         <ul class="copyright">
-            <li>&copy; <?php echo $copyright; ?></li>
-            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            <li>Design: <a href="https://uuz.moe">Amamiya Chinatsu
+            <li>Powered: <a href="http://html5up.net">HTML5 UP</a></li>
         </ul>
     </footer>
 
