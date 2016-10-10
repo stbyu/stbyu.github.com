@@ -16,6 +16,47 @@ include_once 'lib/config.php';
     <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style type="text/css">
+        body {
+            height: 100%;
+            background-image: url("images/<?php echo $background_filename;?>");
+            background-image: url("images/<?php echo $background_filename;?>");
+            background-image: url("images/<?php echo $background_filename;?>");
+            background-image: url("images/<?php echo $background_filename;?>");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position:bottom center;
+            background-attachment:fixed;
+        }
+
+        body:after {
+            content: '';
+            display: block;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: inherit;
+            opacity: 0;
+            z-index: 1;
+            background-color: #ffffff;
+            background-image: url("images/<?php echo $background_filename;?>");
+            background-image: url("images/<?php echo $background_filename;?>");
+            background-image: url("images/<?php echo $background_filename;?>");
+            background-image: url("images/<?php echo $background_filename;?>");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            -moz-transition: opacity 1.75s ease-out;
+            -webkit-transition: opacity 1.75s ease-out;
+            -ms-transition: opacity 1.75s ease-out;
+            transition: opacity 1.75s ease-out;
+        }
+
+        body.is-loading:after {
+            opacity: 1;
+        }
+    </style>
 </head>
 
 <body class="is-loading">
@@ -69,20 +110,25 @@ include_once 'lib/config.php';
         -->
         <footer>
             <ul class="icons">
-                <li><a href="<?php echo $url_twitter;?>" class="fa-twitter">Twitter</a></li>
-                <li><a href="<?php echo $url_instagram; ?>" class="fa-instagram">Instagram</a></li>
-                <li><a href="<?php echo $url_facebook; ?>" class="fa-facebook">Facebook</a></li>
+                <li><a href="<?php echo $url_01;?>" class="<?php echo $icons_01;?>"><?php echo $txt_01;?></a></li>
+                <li><a href="<?php echo $url_02;?>" class="<?php echo $icons_02;?>"><?php echo $txt_02;?></a></li>
+		        <li><a href="<?php echo $url_03;?>" class="<?php echo $icons_03;?>"><?php echo $txt_03;?></a></li>
+            </ul>
+            <ul class="actions">
+                <li><a href="<?php echo $button_url;?>" class="button"><?php echo $button_name;?></a></li>
             </ul>
         </footer>
     </section>
+    
 
     <!-- Footer -->
     <footer id="footer">
-        &copy; <?php echo $copyright; ?> </br>
-        <ul class="copyright">
-            <li>Design: <a href="https://uuz.moe">Amamiya Chinatsu
+            &copy; <?php echo $copyright; ?>
+            </br>
+            <ul class="copyright">
+            <li>Use: <a href="https://github.com/BakaChinatsu/uuz-h5theme">uuz-h5theme</a></li>
             <li>Powered: <a href="http://html5up.net">HTML5 UP</a></li>
-        </ul>
+</ul>
     </footer>
 
 </div>
@@ -97,4 +143,3 @@ include_once 'lib/config.php';
 </script>
 
 </body>
-
