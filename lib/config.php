@@ -38,7 +38,7 @@ $url_02 = "https://github.com/BakaChinatsu/";
 //设置第三个图标及替代文字
 $icons_03 = "fa-google-plus";
 $txt_03 = "Google+";
-$url_03 = "https://plus.google.com/+韩柘旭";
+$url_03 = "https://plus.google.com/u/0/106072901155470558440";
 
 //设置下方button信息
 $button_name = "Blog";
