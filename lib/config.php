@@ -9,6 +9,9 @@
 //定义网站标题
 $title = "雨宮千夏の博麗神社";
 
+//定义Chrome theme-color
+$theme_color = "#22849f"
+
 //设置背景图像
 //请将背景文件放入 /images 文件夹
 $background_filename = "gensou.jpg";
