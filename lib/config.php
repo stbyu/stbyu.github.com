@@ -24,7 +24,7 @@ $avatar_filename = "reimu.jpg";
 $main_title = "雨宮千夏";
 
 //设置二级标题
-$sec_title = "永遠とはそういうこと，ワビの世界よ";
+$sec_title = "永遠とはそういうこと。ワビの世界よ。";
 
 //设置连接地址
 //如需设置其他图标，请参考 http://fontawesome.io/icons/
