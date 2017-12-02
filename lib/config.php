@@ -1,13 +1,13 @@
-<?php
+﻿<?php
 /**
  * uuz-h5theme配置文件
  * Created by PhpStorm.
- * User: Amamiya Chinatsu's
+ * User: Stbyu
  * Date: 2016/3/5
  * Time: 12:22
  */
 //定义网站标题
-$title = "雨宮千夏の博麗神社";
+$title = "Stbyu's blog";
 
 //定义Chrome theme-color
 $theme_color = "#22849f";
@@ -21,31 +21,31 @@ $background_filename = "gensou.jpg";
 $avatar_filename = "reimu.jpg";
 
 //设置主标题
-$main_title = "雨宮千夏";
+$main_title = "Stbyu";
 
 //设置二级标题
-$sec_title = "永遠とはそういうこと。ワビの世界よ。";
+$sec_title = "Life,interesting!";
 
 //设置连接地址
 //如需设置其他图标，请参考 http://fontawesome.io/icons/
 //设置第一个图标及替代文字
-$icons_01 = "fa-twitter";
+$icons_01 = "fa-teitter";
 $txt_01 = "Twitter";
-$url_01 = "https://twitter.com/BakaChinatsu/";
+$url_01 = "https://twitter.com/";
 
 //设置第二个图标及替代文字
 $icons_02 = "fa-github";
 $txt_02 = "GitHub";
-$url_02 = "https://github.com/BakaChinatsu/";
+$url_02 = "https://github.com/";
 
 //设置第三个图标及替代文字
-$icons_03 = "fa-google-plus";
-$txt_03 = "Google+";
-$url_03 = "https://plus.google.com/u/0/106072901155470558440";
+$icons_03 = "fa-qq";
+$txt_03 = "QQ";
+$url_03 = "https://qq.com";
 
 //设置下方button信息
 $button_name = "Blog";
-$button_url = "https://blog.uuz.moe";
+$button_url = "https://stbyu,github.io/blog/";
 
 //设置版权信息
 $copyright = "Amamiya Chinatsu";
